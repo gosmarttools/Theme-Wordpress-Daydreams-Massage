@@ -1,179 +1,121 @@
-# Daydreams Massage Jakarta
+# Daydreams Massage Jakarta - Custom WordPress Theme (SPA Landing Page)
 
-> **Website Resmi:** [https://daydreamsmassagejakarta.com/](https://daydreamsmassagejakarta.com/)  
-> **Badan Usaha:** PT. DAYDREAMS MASSAGE SEHAT JAKARTA  
-> **Layanan:** Pijat Panggilan Hotel, Apartemen & Perumahan Mewah Jakarta 24 Jam Nonstop  
-
-Repository ini berisi kode sumber lengkap untuk:
-1. **Frontend Web Application (SPA)** berbasis React 18, TypeScript, Tailwind CSS, dan Vite.
-2. **Custom WordPress Theme (SPA Landing Page)** siap pakai di folder [`/wordpress-theme/daydreams-massage-theme`](./wordpress-theme/daydreams-massage-theme) untuk diunggah langsung ke dashboard WordPress (*Appearance > Themes > Add New*).
+Tema WordPress Single Page Application (SPA) modern, ultra-ringan, SEO-friendly, dan dioptimalkan secara khusus untuk konversi tinggi pemesanan jasa **Pijat Panggilan Jakarta 24 Jam** untuk brand:
+**Daydreams Massage Jakarta** (https://daydreamsmassagejakarta.com/).
 
 ---
 
-## 📞 Kontak Layanan Pelanggan (Admin Spa Online 24 Jam)
+## 🌟 Fitur Utama Tema
 
-Layanan pemesanan, konsultasi keluhan badan, dan ketersediaan terapis standby dilayani oleh 2 Admin resmi:
+1. **Desain Mobile-First & Ultra-Responsif**:
+   - Lebih dari 90% pencari jasa pijat panggilan menggunakan smartphone. Tema ini didesain dari awal untuk kenyamanan navigasi layar ponsel.
+   - Dilengkapi **Floating WhatsApp Button** dan **Mobile Bottom Booking Bar** yang selalu siap ditekan di bagian bawah layar HP.
 
-| Admin | Nama Kontak | Nomor WhatsApp | Akses Langsung |
-|---|---|---|---|
-| **Admin 1** | **SISKA** | `+62 895-6291-39936` | [Chat Admin SISKA](https://api.whatsapp.com/send?phone=62895629139936&text=Halo%20Admin%20SISKA%2C%20saya%20ingin%20booking%20terapis%20pijat%20panggilan.) |
-| **Admin 2** | **Mr.Erik** | `+62 852-1734-4735` | [Chat Admin Mr.Erik](https://api.whatsapp.com/send?phone=6285217344735&text=Halo%20Admin%20Mr.Erik%2C%20saya%20ingin%20booking%20terapis%20pijat%20panggilan.) |
+2. **Single Page Application (SPA) Experience**:
+   - Navigasi halus (*smooth scrolling*) ke setiap seksi: **Beranda**, **Layanan**, **Keunggulan**, **Area Layanan**, **Tarif/Harga**, **Testimoni**, dan **Booking**.
 
----
+3. **Formulir Pemesanan Cepat Terintegrasi WhatsApp**:
+   - Calon pelanggan dapat memilih jenis layanan, durasi (60/90/120 menit), preferensi terapis pria/wanita, wilayah Jakarta, waktu panggilan, serta alamat/nama hotel & kamar.
+   - Begitu tombol diklik, format pesan pemesanan otomatis disusun rapi dan langsung membuka aplikasi WhatsApp Admin.
 
-## 🌟 Fitur & Keunggulan Aplikasi
+4. **SEO & Schema.org Structured Data**:
+   - Dilengkapi meta tags OpenGraph Facebook, Twitter Card, dan JSON-LD Structured Data tipe `HealthAndBeautyBusiness` spesifik Jakarta untuk memenangkan ranking lokal Google.
 
-- **Hero Image Slideshow**: Slider visual resolusi tinggi dengan navigasi dot dan panah interaktif.
-- **Dual Admin 24 Jam Card**: Kartu customer service online dengan tombol aksi cepat dan status real-time.
-- **Daftar Layanan Pijat Berfoto Lengkap**:
-  - *Traditional Body Massage* (90 / 120 Menit) - Relaksasi seluruh tubuh pegal & kaku.
-  - *Reflexology & Totok Wajah* (60 / 90 Menit) - Titik saraf kaki & kesegaran wajah anti-stres.
-  - *Pijat Tubuh + Kerokan* (90 / 120 Menit) - Terapi masuk angin, meriang & minyak hangat.
-  - *Lulur Tradisional & Scrub Herbal* (120 Menit) - Pengangkatan kulit mati & wangi alami.
-  - *Deep Tissue / Pijat Otot Berat* (90 / 120 Menit) - Tekanan bertenaga untuk simpul otot kaku.
-  - *Couple Massage Package* (120 Menit) - 2 Terapis datang serentak untuk pasangan suami istri.
-- **Grid Terapis Siap Panggil (Pria & Wanita)**:
-  - Filter kategori cepat: **Semua**, **Terapis Wanita**, dan **Terapis Pria**.
-  - 8 Profil personil bersertifikat dengan foto, rating bintang, jam terbang, dan keahlian spesifik.
-  - Tombol **"Pilih Terapis Ini"** yang otomatis mengisi formulir booking WhatsApp.
-- **Cakupan 5 Wilayah DKI Jakarta**:
-  - Jakarta Selatan (SCBD, Senopati, Kemang, Kuningan, Pondok Indah, Cilandak).
-  - Jakarta Pusat (Sudirman, MH Thamrin, Menteng, Senayan, Kemayoran, Tanah Abang).
-  - Jakarta Barat (Tomang, Slipi, Grogol, Puri Indah, Kebon Jeruk).
-  - Jakarta Utara (PIK, Pluit, Kelapa Gading, Sunter, Ancol).
-  - Jakarta Timur (Rawamangun, Cawang, Matraman, Jatinegara).
-- **Formulir Pemesanan Express Terintegrasi WhatsApp**:
-  - Pilihan layanan, durasi, terapis, wilayah, waktu panggil, nama hotel/alamat & nomor kamar.
-  - Format pesan WhatsApp tersusun rapi otomatis saat diklik.
-- **SEO & Schema.org LocalBusiness**:
-  - Meta tags OpenGraph, Twitter Card, dan JSON-LD Structured Data tipe `HealthAndBeautyBusiness`.
-- **Komitmen 100% Layanan Profesional**:
-  - Menjunjung tinggi privasi dan standar etika terapi kesehatan resmi PT. DAYDREAMS MASSAGE SEHAT JAKARTA.
+5. **Tanpa Build Tool yang Rumit**:
+   - Memanfaatkan Tailwind CSS via official CDN yang dikonfigurasi melalui `functions.php`, sehingga Anda tidak memerlukan Node.js, Webpack, atau npm build di server WordPress Anda.
 
 ---
 
-## 📁 Struktur Repositori
+## 📁 Struktur File Tema
 
 ```text
-├── .env.example                               # Contoh konfigurasi environment
-├── index.html                                 # Entry point HTML aplikasi React
-├── metadata.json                              # Metadata aplikasi AI Studio
-├── package.json                               # Dependensi npm & skrip project
-├── vite.config.ts                             # Konfigurasi Vite bundler
-├── LICENSE                                    # Lisensi GNU General Public License v2
-├── README.md                                  # Dokumentasi utama repositori ini
-├── src/                                       # Kode sumber React SPA
-│   ├── App.tsx                                # Komponen utama SPA lengkap
-│   ├── main.tsx                               # Mount React DOM
-│   └── index.css                              # Tailwind CSS global import
-└── wordpress-theme/                           # Folder Tema WordPress Standalone
-    └── daydreams-massage-theme/               # Direktori tema siap di-ZIP
-        ├── style.css                          # Metadata tema & CSS WordPress
-        ├── index.php                          # Fallback template WordPress
-        ├── functions.php                      # Enqueue Tailwind, FontAwesome & Customizer
-        ├── header.php                         # Tag <head>, SEO meta, navbar, dual admin
-        ├── footer.php                         # Footer, copyright, floating WA & scripts
-        ├── front-page.php                     # Template utama SPA (Hero, Layanan, Terapis)
-        ├── README.md                          # Panduan khusus tema WordPress
-        └── LICENSE                            # Lisensi GNU GPL v2 untuk WordPress
+daydreams-massage-theme/
+├── style.css           # Metadata tema WordPress & styling custom
+├── index.php           # Fallback template utama
+├── functions.php       # Enqueue Tailwind, FontAwesome, fonts, & WordPress Customizer
+├── header.php          # Tag <head>, SEO meta tags, Schema.org, & Fixed Navbar
+├── footer.php          # Footer info, copyright, floating WA button, & JavaScript
+├── front-page.php      # Template utama SPA (Hero, Layanan, Area, Testimoni, Form)
+├── README.md           # Dokumentasi & panduan instalasi
+└── LICENSE             # Lisensi GNU General Public License v2
 ```
 
 ---
 
-## 🚀 Panduan Instalasi & Penggunaan
+## 🚀 Panduan Instalasi di WordPress
 
-### Bagian 1: Menjalankan Frontend Web App (React + Vite)
+### Langkah 1: Mengemas Folder Menjadi File `.zip`
 
-#### Prasyarat:
-- Node.js versi 18 atau lebih baru
-- npm / yarn / pnpm
+Pastikan seluruh file tema berada di dalam satu folder bernama `daydreams-massage-theme`.
 
-#### Langkah Instalasi:
+**Di Windows:**
+1. Klik kanan pada folder `daydreams-massage-theme`.
+2. Pilih **Send to** > **Compressed (zipped) folder**.
+3. Beri nama `daydreams-massage-theme.zip`.
+
+**Di Mac:**
+1. Klik kanan pada folder `daydreams-massage-theme`.
+2. Pilih **Compress "daydreams-massage-theme"**.
+
+**Melalui Terminal / Linux:**
 ```bash
-# 1. Clone repository
-git clone https://github.com/username/daydreams-massage-jakarta.git
-cd daydreams-massage-jakarta
-
-# 2. Install dependensi
-npm install
-
-# 3. Jalankan server lokal (Development Mode)
-npm run dev
-```
-Akses di browser pada: `http://localhost:3000` (atau port yang ditentukan Vite).
-
-#### Build untuk Produksi:
-```bash
-npm run build
-```
-File hasil kompilasi siap saji akan berada di folder `dist/`, yang dapat langsung di-deploy ke Vercel, Netlify, Cloudflare Pages, atau hosting static file lainnya.
-
----
-
-### Bagian 2: Panduan Instalasi Tema WordPress (`daydreams-massage-theme`)
-
-Folder `wordpress-theme/daydreams-massage-theme` dirancang sebagai tema mandiri (*standalone theme*) yang tidak membutuhkan compiler atau build tool di server WordPress.
-
-#### Langkah 1: Buat File ZIP Tema
-1. Buka folder `wordpress-theme/`.
-2. Klik kanan pada folder `daydreams-massage-theme`.
-3. Pilih **Compress to ZIP** / **Send to > Compressed (zipped) folder**.
-4. Beri nama file: `daydreams-massage-theme.zip`.
-
-*Atau melalui terminal/command line:*
-```bash
-cd wordpress-theme
 zip -r daydreams-massage-theme.zip daydreams-massage-theme/
 ```
 
-#### Langkah 2: Upload & Aktifkan Tema di WordPress
-1. Masuk ke Dashboard WordPress Anda (`https://yourdomain.com/wp-admin`).
-2. Masuk ke menu **Appearance (Tampilan)** > **Themes (Tema)**.
-3. Klik tombol **Add New Theme (Tambah Tema Baru)**.
-4. Klik tombol **Upload Theme (Unggah Tema)** di bagian atas.
-5. Pilih file `daydreams-massage-theme.zip` yang telah dibuat.
-6. Klik **Install Now (Pasang Sekarang)**, lalu klik **Activate (Aktifkan)**.
+> **Tips:** Anda juga dapat menggunakan tombol **"Download Theme .ZIP"** yang tersedia di aplikasi live preview ini untuk mengunduh paket zip siap pakai secara instan!
 
-#### Langkah 3: Menetapkan Halaman Beranda (Front Page)
+---
+
+### Langkah 2: Upload ke Dashboard WordPress
+
+1. Masuk ke dashboard admin WordPress Anda (`https://domainanda.com/wp-admin`).
+2. Masuk ke menu **Appearance (Tampilan)** > **Themes (Tema)**.
+3. Klik tombol **Add New (Tambah Baru)** di bagian atas.
+4. Klik tombol **Upload Theme (Unggah Tema)**.
+5. Pilih file `daydreams-massage-theme.zip` dari komputer Anda, lalu klik **Install Now (Pasang Sekarang)**.
+6. Setelah instalasi selesai, klik tautan **Activate (Aktifkan)**.
+
+---
+
+### Langkah 3: Mengatur Halaman Utama (Front Page)
+
 1. Buka menu **Pages (Halaman)** > **Add New (Tambah Baru)**.
-2. Beri judul halaman, misalnya: `Beranda` atau `Home`.
-3. Di panel kanan pada **Page Attributes (Atribut Halaman)**, ubah **Template** menjadi **"Front Page SPA Landing Page"**.
+2. Beri judul halaman (misal: "Beranda").
+3. Di panel sebelah kanan (*Page Attributes*), pada bagian **Template**, pilih **"Front Page SPA Landing Page"**.
 4. Klik **Publish (Terbitkan)**.
 5. Selanjutnya, buka menu **Settings (Pengaturan)** > **Reading (Membaca)**.
-6. Pada bagian **Your homepage displays (Tampilan beranda Anda)**, pilih **A static page (Halaman statis)**.
-7. Pilih **Homepage**: halaman `Beranda` yang baru dibuat.
+6. Pada opsi **Your homepage displays**, pilih **A static page (Halaman statis)**.
+7. Setel **Homepage** ke halaman "Beranda" yang baru saja Anda buat.
 8. Klik **Save Changes (Simpan Perubahan)**.
 
-#### Langkah 4: Kustomisasi Kontak & Logo WhatsApp
+---
+
+### Langkah 4: Mengatur Nomor WhatsApp Admin
+
+Tema ini sudah terintegrasi dengan **WordPress Theme Customizer**:
+
 1. Buka menu **Appearance** > **Customize**.
-2. Masuk ke bagian **Pengaturan Kontak & WhatsApp**:
-   - Sesuaikan nomor WhatsApp Admin 1 (SISKA): `62895629139936`
-   - Sesuaikan nomor WhatsApp Admin 2 (Mr.Erik): `6285217344735`
-3. Masuk ke bagian **Site Identity**:
-   - Unggah logo resmi Daydreams Massage Jakarta (`Logo-Daydreams-Jakarta-Massage-2.webp`).
-4. Klik **Publish (Terbitkan)**.
+2. Cari seksi **"Pengaturan Kontak & WhatsApp"**.
+3. Masukkan nomor WhatsApp Anda (format internasional tanpa simbol, contoh: `6281234567890`).
+4. Masukkan nomor tampilan (contoh: `0812-3456-7890`).
+5. Klik **Publish**. Seluruh tombol dan form di website akan otomatis mengarah ke nomor WhatsApp baru Anda!
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## 📜 Lisensi
 
-- **Frontend Core:** React 18, TypeScript
-- **Styling:** Tailwind CSS
-- **Icons:** Lucide React (`lucide-react`) & FontAwesome 6 Pro CDN
-- **Animations:** Motion (`motion/react`) & Tailwind CSS transitions
-- **Bundler:** Vite
-- **CMS Compatibility:** WordPress 5.9+ / 6.x (PHP 7.4 - 8.3+)
+Tema ini dirilis di bawah lisensi **GNU General Public License v2 or later (GPL-2.0-or-later)** sesuai standar ekosistem WordPress.
+Lihat file `LICENSE` untuk informasi selengkapnya.
 
 ---
 
-## 📄 Lisensi (License)
+## 👨‍💻 Profil Perusahaan & Layanan Resmi
 
-Proyek ini didistribusikan di bawah lisensi **GNU General Public License v2.0 (GPL-2.0)**.  
-Anda diizinkan untuk menggunakan, memodifikasi, dan mendistribusikan kode ini sesuai dengan ketentuan lisensi GPL v2. Lihat file [LICENSE](./LICENSE) untuk informasi teks lisensi selengkapnya.
-
----
-
-## 🏢 Kepemilikan & Hak Cipta
-
-© 2026 **Daydreams Massage Jakarta** • **PT. DAYDREAMS MASSAGE SEHAT JAKARTA**.  
-Seluruh hak cipta dilindungi undang-undang.
+- **Perusahaan:** PT. DAYDREAMS MASSAGE SEHAT JAKARTA
+- **Brand:** Daydreams Massage Jakarta
+- **Website Resmi:** [https://daydreamsmassagejakarta.com/](https://daydreamsmassagejakarta.com/)
+- **Customer Service (24 Jam Nonstop):**
+  - **Admin 1 (SISKA):** `+62 895-6291-39936`
+  - **Admin 2 (Mr.Erik):** `+62 852-1734-4735`
+- **Layanan:** Pijat Panggilan Hotel Bintang, Apartemen Mewah, & Rumah Tinggal di Seluruh Wilayah DKI Jakarta.
+- **Standar Layanan:** 100% Bersih, Higienis, & Menjunjung Tinggi Profesionalisme Kesehatan.
