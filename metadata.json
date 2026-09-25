@@ -1,0 +1,6 @@
+{
+  "name": "Daydreams Massage Jakarta",
+  "description": "Layanan Pijat Panggilan Jakarta 24 Jam oleh PT. DAYDREAMS MASSAGE SEHAT JAKARTA ke hotel, apartemen, dan rumah.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
